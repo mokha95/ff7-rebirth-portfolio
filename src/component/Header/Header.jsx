@@ -1,4 +1,6 @@
 import styles from "./Header.module.css";
+import img16 from "../../assets/img/16.webp";
+import imgViolence from "../../assets/img/violence.png";
 function Header() {
   return (
     <>
@@ -82,14 +84,14 @@ function Header() {
             <div className="pegi16">
               <img
                 className={styles.imgVignette}
-                src="/src/assets/img/16.webp"
+                src={img16}
                 alt="pegi 16"
               />
             </div>
             <div className="violences">
               <img
                 className={styles.imgVignette}
-                src="/src/assets/img/violence.png"
+                src={imgViolence}
                 alt="image de point contre la violences"
               />
               <hr className="" />

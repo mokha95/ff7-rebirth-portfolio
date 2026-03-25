@@ -1,123 +1,115 @@
 .mainContainer {
-    position: relative;
-    color: #fff;
-    /* height: 60vh;  */
-  }
-  
-  .mainImageFond {
-    background-image: url('src/assets/img/3heros.webp');
-    background-size: cover;
-    height: 850px;
-    filter: blur(5px); /* Applique le flou uniquement à l'image de fond */
-  }
-  
-  .blocFF {
-    position: absolute;
-    top: 10%; /* Ajustez ceci selon vos besoins */
-    left: 0;
-    right: 0;
-    padding: 20px; /* Ajoutez du padding selon vos besoins */
-    /* display: flex;
+  position: relative;
+  color: #fff;
+  /* height: 60vh;  */
+}
+
+.mainImageFond {
+  background-image: url("../../assets/img/3heros.webp");
+  background-size: cover;
+  height: 850px;
+  filter: blur(5px); /* Applique le flou uniquement à l'image de fond */
+}
+
+.blocFF {
+  position: absolute;
+  top: 10%; /* Ajustez ceci selon vos besoins */
+  left: 0;
+  right: 0;
+  padding: 20px; /* Ajoutez du padding selon vos besoins */
+  /* display: flex;
     align-items: center;
     justify-content: center; */
-  }
-  
-  .blocFF h5{
-    color:#dbdbdb ;
-    font-weight: bold;
-    font-size: 16px;
-  }
+}
 
-  .btnInfo{
-    background: #f1f1f1;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  
-  .btnInfo:hover{
+.blocFF h5 {
+  color: #dbdbdb;
+  font-weight: bold;
+  font-size: 16px;
+}
 
-background: #dbdbdb;
+.btnInfo {
+  background: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
-  }
+.btnInfo:hover {
+  background: #dbdbdb;
+}
 
-  .btnInfo2{
-    background: var(--secondary-btn);
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  .btnInfo2:hover{
-background: rgb(11, 82, 196);
-  }
-  
-  .textFFMenu{
-    font-size: 30px;
-    line-height: 33px;
-  
-  }
+.btnInfo2 {
+  background: var(--secondary-btn);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btnInfo2:hover {
+  background: rgb(11, 82, 196);
+}
 
-  .logoFF7rebirth{
-    width: 350px;
-  }
+.textFFMenu {
+  font-size: 30px;
+  line-height: 33px;
+}
 
-  .largeurParagraphe{
-    max-width: 400px;
-  
-    opacity: 0.75;
-    display: inline-block;
+.logoFF7rebirth {
+  width: 350px;
+}
 
-  }
+.largeurParagraphe {
+  max-width: 400px;
 
-  /* partie jeux remake */
+  opacity: 0.75;
+  display: inline-block;
+}
 
-.backgroundRemake p{
+/* partie jeux remake */
+
+.backgroundRemake p {
   color: #fff;
 }
-  
 
+.backgroundRemake {
+  background: linear-gradient(135deg, #ba93f1, #252550);
+  clip-path: polygon(0% 0%, 100% 0%, 110%, 80% 100%, 0% 100%);
+  /* height: 40vh; */
+}
 
-   .backgroundRemake {
-    background: linear-gradient(135deg, #ba93f1, #252550);
-    clip-path: polygon(0% 0%, 100% 0%,  110%, 80% 100%, 0% 100%);
-    /* height: 40vh; */
-  }
+.textContainerRemake {
+  font-size: 35px;
+  width: 450px;
+  line-height: 38px;
+}
 
-  .textContainerRemake{
-    font-size: 35px;
-    width: 450px;
-    line-height: 38px;
-  }
-  
-
-  .btnInfo3{
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-.plateformeSection{
+.btnInfo3 {
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.plateformeSection {
   background: #000;
   color: #fff;
 }
-  .plateformesSony{
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
-.txtBasFin p{
-  margin: 0;
-  
+.plateformesSony {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.squareEnixTxt{
+.txtBasFin p {
+  margin: 0;
+}
+
+.squareEnixTxt {
   max-width: 500px;
   margin: 0 auto;
 }

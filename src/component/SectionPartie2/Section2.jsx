@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Section2.module.css";
+import img3heros from "../../assets/img/3heros.webp";
+import imgFFVII from "../../assets/img/FFVII-rebirth-background820x820.jpg";
 
 const Section2 = () => {
   return (
@@ -64,7 +66,7 @@ const Section2 = () => {
             <div className="col-md-6 col-12 ">
               <div className="card text-white bg-dark mb-3">
                 <img
-                  src="/src/assets/img/3heros.webp"
+                  src={img3heros}
                   className="card-img-top"
                   alt="Final Fantasy VII Rebirth DEMO"
                   style={{ objectFit: "cover", height: "250px" }}
@@ -91,7 +93,7 @@ const Section2 = () => {
             <div className="col-md-6 col-12">
               <div className="card text-white bg-dark mb-3">
                 <img
-                  src="/src/assets/img/FFVII-rebirth-background820x820.jpg"
+                  src={imgFFVII}
                   className="card-img-top"
                   alt="Final Fantasy VII Rebirth DEMO"
                   style={{ objectFit: "cover", height: "250px" }}
@@ -121,7 +123,7 @@ const Section2 = () => {
             <div className="col-md-6 col-12">
               <div className="card text-white bg-dark mb-3">
                 <img
-                  src="/src/assets/img/3heros.webp"
+                  src={img3heros}
                   className="card-img-top"
                   alt="Final Fantasy VII Rebirth DEMO"
                   style={{ objectFit: "cover", height: "250px" }}
@@ -148,7 +150,7 @@ const Section2 = () => {
             <div className="col-md-6 col-12">
               <div className="card text-white bg-dark mb-3">
                 <img
-                  src="/src/assets/img/FFVII-rebirth-background820x820.jpg"
+                  src={imgFFVII}
                   className="card-img-top"
                   alt="Final Fantasy VII Rebirth DEMO"
                   style={{ objectFit: "cover", height: "250px" }}
@@ -175,7 +177,7 @@ const Section2 = () => {
             <div className="col-md-6 col-12">
               <div className="card text-white bg-dark mb-3">
                 <img
-                  src="/src/assets/img/3heros.webp"
+                  src={img3heros}
                   className="card-img-top"
                   alt="Final Fantasy VII Rebirth DEMO"
                   style={{ objectFit: "cover", height: "250px" }}

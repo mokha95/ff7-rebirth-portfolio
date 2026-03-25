@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import logoPlayFooter from "../../assets/img/logo-play-footer.jpg";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
             <i className="fab fa-playstation  text-white"></i>
 
             <img
-              src="src/assets/img/logo-play-footer.jpg"
+              src={logoPlayFooter}
               alt="logo playstation"
             />
           </div>
@@ -158,7 +159,7 @@ const Footer = () => {
             <i className="fab fa-playstation  text-white"></i>
 
             <img
-              src="src/assets/img/logo-play-footer.jpg"
+              src={logoPlayFooter}
               alt="logo playstation"
             />
           </div>

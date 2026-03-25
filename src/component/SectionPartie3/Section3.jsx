@@ -2,6 +2,18 @@ import React from "react";
 import styles from "./Section3.module.css";
 import { Carousel, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import img3heros from "../../assets/img/3heros.webp";
+import imgCloud from "../../assets/img/slider-img/cloud-image-block-01-en-14feb24.webp";
+import imgAerith from "../../assets/img/slider-img/Aerith-image-block-01-en-14feb24.webp";
+import imgTifa from "../../assets/img/slider-img/tifa-image-block-01-en-14feb24.webp";
+import imgRedXIII from "../../assets/img/slider-img/redXIII-image-block-01-en-14feb24.webp";
+import imgSephiroth from "../../assets/img/slider-img/sephiroth-image-block-01-en-14feb24.webp";
+import imgBarret from "../../assets/img/slider-img/Barret-image-block-01-en-14feb24.webp";
+import imgVincent from "../../assets/img/slider-img/vincent-image-block-01-en-14feb24.webp";
+import imgCid from "../../assets/img/slider-img/Cid-image-block-01-en-14feb24.webp";
+import imgYuffie from "../../assets/img/slider-img/yuffie-image-block-01-en-14feb24.webp";
+import imgCloudMain from "../../assets/img/final-fantasy-vii-rebirth-screenshot-cloud--22jun23.webp";
+import imgAerithCombat from "../../assets/img/aerith-combat.webp";
 const Section3 = () => {
   return (
     <>
@@ -9,7 +21,7 @@ const Section3 = () => {
         <div className={styles.extend}>
           <div className={styles.imgExtensions}>
             <h2 className="text-center pt-5">Extensions </h2>
-            <img className="mt-5" src="/src/assets/img/3heros.webp" />
+            <img className="mt-5" src={img3heros} />
             {/* <span className={`d-inline border border-white  ${styles.ps5carte}`}>
             PS5
           </span> */}
@@ -29,7 +41,7 @@ const Section3 = () => {
             <div className="row pt-5">
               <div className="col-md-6">
                 <img
-                  src="/src/assets/img/final-fantasy-vii-rebirth-screenshot-cloud--22jun23.webp"
+                  src={imgCloudMain}
                   className="img-fluid max-width-600  rounded-4"
                   alt="Screenshot Cloud"
                 />
@@ -47,7 +59,7 @@ const Section3 = () => {
               </div>
               <div className="col-md-6">
                 <img
-                  src="/src/assets/img/aerith-combat.webp"
+                  src={imgAerithCombat}
                   className="img-fluid max-width-600 rounded-4"
                   alt="Aerith Combat"
                 />
@@ -82,7 +94,7 @@ const Section3 = () => {
                 <div className="text-center position-relative">
                   <img
                     className="d-block w-50 mx-auto"
-                    src="/src/assets/img/slider-img/cloud-image-block-01-en-14feb24.webp"
+                    src={imgCloud}
                     alt="Cloud Strife"
                   />
                   <Carousel.Caption>
@@ -101,7 +113,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/Aerith-image-block-01-en-14feb24.webp"
+                  src={imgAerith}
                   alt="Aerith Gainsborough"
                 />
                 <Carousel.Caption>
@@ -118,7 +130,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/tifa-image-block-01-en-14feb24.webp"
+                  src={imgTifa}
                   alt="Tifa Lockhart"
                 />
                 <Carousel.Caption>
@@ -134,7 +146,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/redXIII-image-block-01-en-14feb24.webp"
+                  src={imgRedXIII}
                   alt="Red XIII"
                 />
                 <Carousel.Caption>
@@ -150,7 +162,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/sephiroth-image-block-01-en-14feb24.webp"
+                  src={imgSephiroth}
                   alt="Sephiroth"
                 />
                 <Carousel.Caption>
@@ -168,7 +180,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/Barret-image-block-01-en-14feb24.webp"
+                  src={imgBarret}
                   alt="Barret"
                 />
                 <Carousel.Caption>
@@ -183,7 +195,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/vincent-image-block-01-en-14feb24.webp"
+                  src={imgVincent}
                   alt="Vincent Valentine"
                 />
                 <Carousel.Caption>
@@ -199,7 +211,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/Cid-image-block-01-en-14feb24.webp"
+                  src={imgCid}
                   alt="Cid Highwind"
                 />
                 <Carousel.Caption>
@@ -215,7 +227,7 @@ const Section3 = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-50 mx-auto"
-                  src="/src/assets/img/slider-img/yuffie-image-block-01-en-14feb24.webp"
+                  src={imgYuffie}
                   alt="Yuffie Kisaragi"
                 />
                 <Carousel.Caption>

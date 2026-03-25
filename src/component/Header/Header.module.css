@@ -1,14 +1,15 @@
 .imgFondFF {
-  background-image: url('/src/assets/img/3heros.webp');
+  background-image: url("../../assets/img/3heros.webp");
   background-size: cover;
   background-position: center;
   height: 100vh;
   color: #fff;
   padding: 0 100px;
-  box-shadow: inset -20px 0 127px 183px rgba(0, 0, 0, 0.7), inset 0 20px 50px -20px rgba(0, 0, 0, 0.7);
+  box-shadow:
+    inset -20px 0 127px 183px rgba(0, 0, 0, 0.7),
+    inset 0 20px 50px -20px rgba(0, 0, 0, 0.7);
 }
 
-
-.imgVignette{
+.imgVignette {
   width: 50px;
 }
