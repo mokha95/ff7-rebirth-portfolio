@@ -11,7 +11,9 @@ function Header() {
             <p className="fw-bold">Square Enix</p>
             <p>
               disponible sur{" "}
-              <span className="border border-2 p-1 text-uppercase ">ps5</span>{" "}
+              <span className="border border-2 p-1 text-uppercase ">
+                ps5
+              </span>{" "}
             </p>
             <div className="notations d-flex align-items-center  gap-2">
               <span className="fw-bold">4.84</span>{" "}
@@ -82,11 +84,7 @@ function Header() {
         <div className="col-lg-6 d-none d-lg-flex flex-column justify-content-end   ">
           <div className="pegi d-flex justify-content-end    gap-2 ">
             <div className="pegi16">
-              <img
-                className={styles.imgVignette}
-                src={img16}
-                alt="pegi 16"
-              />
+              <img className={styles.imgVignette} src={img16} alt="pegi 16" />
             </div>
             <div className="violences">
               <img

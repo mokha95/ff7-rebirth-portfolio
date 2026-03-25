@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "./Main.module.css";
+import img3heros from "../../assets/img/3heros.webp";
+import logoFF7 from "../../assets/img/logo-ff7.webp";
+import fondPersoFF7 from "../../assets/img/fond-perso-ff7.webp";
+import lesRemakeJeux from "../../assets/img/lesRemakeJeux.webp";
 
 const Main = () => {
   return (
@@ -34,7 +38,7 @@ const Main = () => {
               </div>
               <div className="col-md-6 pt-4">
                 <img
-                  src="src/assets/img/3heros.webp"
+                  src={img3heros}
                   className="img-fluid"
                   style={{ maxWidth: "100%" }}
                 />
@@ -50,7 +54,7 @@ const Main = () => {
             <div className="col-md-6">
               <img
                 className={styles.logoFF7rebirth}
-                src="src/assets/img/logo-ff7.webp"
+                src={logoFF7}
                 alt="logo ff7"
               />
               <h4 className="pt-4">
@@ -68,7 +72,7 @@ const Main = () => {
             </div>
             <div className="col-md-6 pt-4">
               <img
-                src="src/assets/img/fond-perso-ff7.webp"
+                src={fondPersoFF7}
                 className="img-fluid "
                 style={{ maxWidth: "100%" }}
               />
@@ -100,7 +104,7 @@ const Main = () => {
               </div>
               <div className="col-md-6 pt-4">
                 <img
-                  src="src/assets/img/lesRemakeJeux.webp"
+                  src={lesRemakeJeux}
                   className="img-fluid "
                   style={{ maxWidth: "100%" }}
                 />

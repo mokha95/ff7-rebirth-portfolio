@@ -10,10 +10,7 @@ const Footer = () => {
           <div className={`${styles.footerLogo} d-flex align-items-center  `}>
             <i className="fab fa-playstation  text-white"></i>
 
-            <img
-              src={logoPlayFooter}
-              alt="logo playstation"
-            />
+            <img src={logoPlayFooter} alt="logo playstation" />
           </div>
 
           <div className="">
@@ -158,10 +155,7 @@ const Footer = () => {
           <div className={`${styles.footerLogo} d-flex align-items-center  `}>
             <i className="fab fa-playstation  text-white"></i>
 
-            <img
-              src={logoPlayFooter}
-              alt="logo playstation"
-            />
+            <img src={logoPlayFooter} alt="logo playstation" />
           </div>
 
           <p>
