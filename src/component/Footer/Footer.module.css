@@ -1,0 +1,26 @@
+footer{
+    /* background: #00439c; */
+    background: #0029A7;
+    color: #fff;
+}
+/* .fab .fa-playstation {
+    color: white;
+    font-size: 30px;
+    background: red;
+} */
+
+footer img{
+    width: 200px
+}
+
+
+footer i {
+    font-size: 40px;
+}
+
+.iconPlay i{
+    font-size: 20px;
+  margin-right: 10px;
+    
+
+}

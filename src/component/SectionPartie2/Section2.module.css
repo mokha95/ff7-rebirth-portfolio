@@ -1,0 +1,30 @@
+.ombreSection {
+    box-shadow: inset 10px 15px 75px 33px #000000;
+    padding: 50px;
+    background-image: url('src/assets/img/final-fantasy-7-rebirth-fiche-produit.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    filter: brightness(80%); /* Réduire la luminosité de l'image */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Augmenter l'opacité */
+    padding: 20px; /* Ajustez le rembourrage selon vos besoins */
+}
+
+
+.edition{
+    background: #121314;
+    color: #fff ;
+}
+
+.logoPlay2{
+    font-size: 70px !important;
+    /* background-color: red; */
+}
+
+.carteEditions{
+    color: #fff ;
+
+}

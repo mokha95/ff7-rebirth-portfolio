@@ -1,0 +1,95 @@
+/* html{
+  /* Html font-size = 16px */
+/* 1 rem = 16px */
+/* font-size: 62.5%; */
+/* }  */
+
+/* Html font-size = 16px */
+/* 1 rem = 16px */
+
+/* bootstrap breakpoint 
+
+
+Small =   ≥576px  sm mobile
+Medium =   ≥768px  md tablette
+Large =   ≥992px  lg destop
+Extra large =   ≥1200px  xl
+ style global
+*/
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+ 
+}
+
+:root {
+  --primary: #333333;
+  --first-btn: #d63d00;
+  --secondary-btn: #0070cc;
+  --couleur-texte1: #fff;
+   --couleur-fond: #121314;
+  
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+  color: inherit;
+}
+
+
+.sony-logo{
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.sony-logo img{
+    width: 80px;
+    margin-right: 15px;
+    /* display: block;
+    text-align: right; */
+}
+
+.btn-header{
+  background-color: var( --first-btn);
+  color: #fff;
+  /* width: clamp(200px, 50%, 300px); */
+  /* padding: 8px 65px; */
+ width: 300px;
+
+  border-radius: 30px;
+  border: none;
+  font-weight: 400;
+
+  transition: 0.2s ease-in-out;
+}
+
+.btn-header:hover{
+background-color: #b73501;
+}
+
+
+.coeur .fa-heart{
+  background: var(--primary);
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: 0.2s ease-in-out;
+  
+}
+.coeur .fa-heart:hover{
+background: #525151;
+cursor: pointer;
+  
+}

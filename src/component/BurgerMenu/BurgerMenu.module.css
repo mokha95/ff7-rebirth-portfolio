@@ -1,0 +1,44 @@
+/* Burger button */
+.burgerBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Burger menu */
+  .BurgerMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    /* display: none; */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .BurgerMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  } */
+  
+  .BurgerMenu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .BurgerMenu ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .BurgerMenu ul li a:hover {
+    background-color: #f0f0f0;
+  }
+  

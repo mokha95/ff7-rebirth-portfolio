@@ -1,0 +1,52 @@
+/* 
+Large =   ≥992px  lg destop
+*/
+/* responsive navbar */
+
+/* @media screen and (max-width: 992px) {
+  .liens {
+    display: none;
+  }
+} */
+
+.logoPlay{
+    color: var(--secondary-btn);
+}
+.link{
+    font-size: 14px;
+    
+}
+
+.btnNavbar{
+    background: var( --secondary-btn);
+    padding: 1px 3px;
+    border-radius: 25px;
+    width: 100px;
+}
+.rechercheIcon{
+  font-size: 23px;
+}
+
+.liens {
+    background-color: crimson;
+}
+.hautPage{
+  /* position: relative; */
+}
+/* .navbarFixer{
+  position: fixed;
+  z-index: 1000;
+  top: 3.6%;
+  background-color: #fff;
+  width: 100%;
+  margin: 0 !important;
+} */
+
+/* .fixedTop{
+  top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+} */
+
